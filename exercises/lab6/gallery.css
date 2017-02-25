@@ -1,0 +1,24 @@
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+body{
+  background-color: black !important;
+}
+.white-title{
+  color: white !important;
+}
+img {
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 5px;
+  }
