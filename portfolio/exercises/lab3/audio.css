@@ -17,9 +17,8 @@
   float:left;
   outline:none;
 }
-
-.play{background: url('play.jpg') ;}
-.pause{background: url('pause.jpg') ;}
+.play{background: url('https://image.ibb.co/gQQVFa/play.jpg') ;}
+.pause{background: url('https://image.ibb.co/jAncva/pause.jpg') ;}
 
 #timeline{
   width: 400px;
