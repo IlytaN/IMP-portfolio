@@ -56,4 +56,5 @@ function veikkosMouseUp(event)
   }
 }
 canvas.addEventListener("mousedown", veikkosMouseDown);
+canvas.addEventListener("mousemove", veikkosMouseDown);
 canvas.addEventListener("mouseup", veikkosMouseUp);

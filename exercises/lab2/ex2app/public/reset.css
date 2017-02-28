@@ -1,8 +1,9 @@
 h1
 {
-  font-size: 3em;
+  font-size: 2.6em;
   background-color: gray;
   text-align: center;
+  line-height: 1.2em;
 }
 h2
 {
@@ -11,11 +12,65 @@ h2
 }
 p
 {
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 body
 {
   margin: 1em;
   background-color: rgb(199, 199, 195);
   line-height: 2em;
+}
+.container{
+  float: right;
+  width: 80%;
+}
+/* The side navigation menu */
+/* define a fixed width for the entire menu */
+.navigation {
+  width: 20%;
+  float: left;
+}
+
+/* reset our lists to remove bullet points and padding */
+.mainmenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.3em;
+}
+
+/* make ALL links (main and submenu) have padding and background color */
+.mainmenu a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #000;
+}
+
+/* add hover behaviour */
+.mainmenu a:hover {
+    background-color: rgb(98, 98, 98);
+}
+
+
+/* when hovering over a .mainmenu item,
+  display the submenu inside it.
+  we're changing the submenu's max-height from 0 to 200px;
+*/
+
+.mainmenu li:hover .submenu {
+  display: block;
+  max-height: 200px;
+}
+
+@media only screen and (max-width: 768px) and (min-device-width: 320px) {
+  .navigation{
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .container{
+    float: none;
+    width: 100%;
+  }
 }
